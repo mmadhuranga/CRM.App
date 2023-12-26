@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\Common\\Repos\\Core\\CRM\\CRM\\CRM.csproj": {}
+    "D:\\Projects\\Common\\Repos\\Core\\CRMApp\\CRM\\CRM.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\Common\\Repos\\Core\\CRM\\CRM\\CRM.csproj": {
+    "D:\\Projects\\Common\\Repos\\Core\\CRMApp\\CRM\\CRM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Common\\Repos\\Core\\CRM\\CRM\\CRM.csproj",
+        "projectUniqueName": "D:\\Projects\\Common\\Repos\\Core\\CRMApp\\CRM\\CRM.csproj",
         "projectName": "CRM",
-        "projectPath": "D:\\Projects\\Common\\Repos\\Core\\CRM\\CRM\\CRM.csproj",
+        "projectPath": "D:\\Projects\\Common\\Repos\\Core\\CRMApp\\CRM\\CRM.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Common\\Repos\\Core\\CRM\\CRM\\obj\\",
+        "outputPath": "D:\\Projects\\Common\\Repos\\Core\\CRMApp\\CRM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "AdminLTE3.MVC": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

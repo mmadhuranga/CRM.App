@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "L9svImqTssLFtRbIs/6KjY1OAv2v8xIBvBZBRrh2xSOlEJ/G+07bhSh1MMFWHqG0iSNlJBIOKeL35c5hC2jWAQ==",
+  "dgSpecHash": "TSgRfjiU2bYPMsjskaPYSma+81BOq8stA5obxnR/lhB0rOBtjAwQy1rS2IBxctgHWvn0OC3CSEJ4YByYic8IVw==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Common\\Repos\\Core\\CRM\\CRM\\CRM.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Projects\\Common\\Repos\\Core\\CRMApp\\CRM\\CRM.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\adminlte3.mvc\\1.0.0\\adminlte3.mvc.1.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

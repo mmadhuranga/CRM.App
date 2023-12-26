@@ -1,11 +1,74 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "AdminLTE3.MVC/1.0.0": {
+        "type": "package"
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "AdminLTE3.MVC/1.0.0": {
+      "sha512": "9y3a/DKSyWw44ATfBRbBJOOsR6V7Ej5e2VP2fT6pKiW1dyueJN1h9r3/wg+qhjlzTUsareAmxuShWwVyJXIYiA==",
+      "type": "package",
+      "path": "adminlte3.mvc/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "adminlte3.mvc.1.0.0.nupkg.sha512",
+        "adminlte3.mvc.nuspec",
+        "content/Content/AdminLTE/adminlte.css",
+        "content/Content/AdminLTE/adminlte.min.css",
+        "content/Content/Images/AdminLTELogo.png",
+        "content/Content/Images/user1-128x128.jpg",
+        "content/Content/Images/user2-160x160.jpg",
+        "content/Content/Images/user3-128x128.jpg",
+        "content/Content/Images/user8-128x128.jpg",
+        "content/Plugins/bootstrap/js/bootstrap.bundle.js",
+        "content/Plugins/bootstrap/js/bootstrap.bundle.min.js",
+        "content/Plugins/fontawesome-free/css/all.css",
+        "content/Plugins/fontawesome-free/css/all.min.css",
+        "content/Plugins/fontawesome-free/css/brands.css",
+        "content/Plugins/fontawesome-free/css/brands.min.css",
+        "content/Plugins/fontawesome-free/css/fontawesome.css",
+        "content/Plugins/fontawesome-free/css/fontawesome.min.css",
+        "content/Plugins/fontawesome-free/css/regular.css",
+        "content/Plugins/fontawesome-free/css/regular.min.css",
+        "content/Plugins/fontawesome-free/css/solid.css",
+        "content/Plugins/fontawesome-free/css/solid.min.css",
+        "content/Plugins/fontawesome-free/css/svg-with-js.css",
+        "content/Plugins/fontawesome-free/css/svg-with-js.min.css",
+        "content/Plugins/fontawesome-free/css/v4-shims.css",
+        "content/Plugins/fontawesome-free/css/v4-shims.min.css",
+        "content/Plugins/fontawesome-free/webfonts/fa-brands-400.eot",
+        "content/Plugins/fontawesome-free/webfonts/fa-brands-400.svg",
+        "content/Plugins/fontawesome-free/webfonts/fa-brands-400.ttf",
+        "content/Plugins/fontawesome-free/webfonts/fa-brands-400.woff",
+        "content/Plugins/fontawesome-free/webfonts/fa-brands-400.woff2",
+        "content/Plugins/fontawesome-free/webfonts/fa-regular-400.eot",
+        "content/Plugins/fontawesome-free/webfonts/fa-regular-400.svg",
+        "content/Plugins/fontawesome-free/webfonts/fa-regular-400.ttf",
+        "content/Plugins/fontawesome-free/webfonts/fa-regular-400.woff",
+        "content/Plugins/fontawesome-free/webfonts/fa-regular-400.woff2",
+        "content/Plugins/fontawesome-free/webfonts/fa-solid-900.eot",
+        "content/Plugins/fontawesome-free/webfonts/fa-solid-900.svg",
+        "content/Plugins/fontawesome-free/webfonts/fa-solid-900.ttf",
+        "content/Plugins/fontawesome-free/webfonts/fa-solid-900.woff",
+        "content/Plugins/fontawesome-free/webfonts/fa-solid-900.woff2",
+        "content/Scripts/AdminLTE/adminlte.js",
+        "content/Scripts/AdminLTE/adminlte.min.js",
+        "content/Views/Home/Index.cshtml",
+        "content/Views/Shared/_Layout.cshtml",
+        "content/Views/Shared/_NavBar.cshtml",
+        "content/Views/Shared/_SideBar.cshtml",
+        "license/license.txt"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "AdminLTE3.MVC >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\User\\.nuget\\packages\\": {}
@@ -13,11 +76,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Common\\Repos\\Core\\CRM\\CRM\\CRM.csproj",
+      "projectUniqueName": "D:\\Projects\\Common\\Repos\\Core\\CRMApp\\CRM\\CRM.csproj",
       "projectName": "CRM",
-      "projectPath": "D:\\Projects\\Common\\Repos\\Core\\CRM\\CRM\\CRM.csproj",
+      "projectPath": "D:\\Projects\\Common\\Repos\\Core\\CRMApp\\CRM\\CRM.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Common\\Repos\\Core\\CRM\\CRM\\obj\\",
+      "outputPath": "D:\\Projects\\Common\\Repos\\Core\\CRMApp\\CRM\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +108,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "AdminLTE3.MVC": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
